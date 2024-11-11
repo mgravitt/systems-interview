@@ -33,7 +33,7 @@ curl -H "Accept: application/vnd.github.v3+json" \
 #### Step 1.3: Parse the response
 The response is a JSON object. The interviewee needs to figure out how to parse the response and extract the relevant information. The important information for the overall challenge is the `topics` field, but certainly more can be parsed.
 
-### For a Python solution, see `step-1-trending-repos/trending-repos.py`
+### For a Python solution, see `step-1-trending-repos.py`
 
 ## Step 2: Query HackerNews API to find discussions for each topic
 Documentation here: https://hn.algolia.com/api
